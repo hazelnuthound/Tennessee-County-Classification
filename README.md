@@ -1,8 +1,6 @@
 # Tennessee County Classification
 
-
-
-Creates a file and data frame classifying Tennessee counties on the basis of:
+When analyzing county level data, it is often useful to understand the degree of rurality of a county.  The R script in this repository creates a file that will easily join with Census data on the GEOID field included in Census API responses.  Creates a file and data frame classifying Tennessee counties on the basis of:
 1. Appalachian Regional Commission (ARC) distressed county status for FY2017 through FY2025;
 2. Membership in a Core Based Statistical Area;
 3. Tennessee Development District;
