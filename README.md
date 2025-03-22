@@ -1,6 +1,6 @@
 # Tennessee County Classification
 
-When analyzing county-level data, it is often valuable to assess factors such as the degree of rurality, level of economic development, or the intrastate region of a county. This repository contains an R script designed to create a file that seamlessly integrates with Census data using the GEOID field provided in Census API responses. The script includes classifications of Tennessee counties based on the following criteria:
+When analyzing county-level data, it is often valuable to assess factors such as the degree of rurality, level of economic development, or the intrastate region of a county. This repository contains an R script that creates a file that seamlessly integrates with Census data using the GEOID field provided in Census API responses. The script includes classifications of Tennessee counties based on the following criteria:
 
 1. Appalachian Regional Commission (ARC) distressed county status for FY2017 through FY2025;
 2. Membership in a Core Based Statistical Area;
