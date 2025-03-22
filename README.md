@@ -4,7 +4,7 @@ When analyzing county level data, it is often useful to understand the degree of
 1. Appalachian Regional Commission (ARC) distressed county status for FY2017 through FY2025;
 2. Membership in a Core Based Statistical Area;
 3. Tennessee Development District;
-4. Ruralality as determined by the Tennessee Department of Economic and Community Development;
+4. Rurality as determined by the Tennessee Department of Economic and Community Development;
 5. USDA Rural-Urban Continuum Codes - 2013 and 2023 vintages;
 6. Census Bureau Rurality as based on rural population for 2010 and 2020 Censuses;
 7. Tennessee Grand Divisions;
