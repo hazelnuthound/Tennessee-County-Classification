@@ -19,7 +19,7 @@ Creates a file and data frame classifying Tennessee counties on the basis of:
 ### Membership in a Core Based Statistical Area
 ### Tennessee Development District
 
-### Ruralality as determined by the Tennessee Department of Economic and Community Development
+### Rurality as determined by the Tennessee Department of Economic and Community Development
 
 ### USDA Rural-Urban Continuum Codes - 2013 and 2023 vintages
 
