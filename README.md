@@ -3,7 +3,7 @@
 When analyzing county-level data, it is often valuable to assess factors such as the degree of rurality, level of economic development, or the intrastate region of a county. This repository contains an R script that creates a file that seamlessly integrates with Census data using the GEOID field provided in Census API responses. The script includes classifications of Tennessee counties based on the following criteria:
 
 1. Appalachian Regional Commission (ARC) distressed county status for FY2017 through FY2025;
-2. Membership in a Core Based Statistical Area;
+2. Membership in a Core-Based Statistical Area;
 3. Tennessee Development District;
 4. Rurality as determined by the Tennessee Department of Economic and Community Development;
 5. USDA Rural-Urban Continuum Codes - 2013 and 2023 vintages;
@@ -13,31 +13,31 @@ When analyzing county-level data, it is often valuable to assess factors such as
 9. County number.
 
 The resulting file includes the following thirty-one variables:
-1. geoid
-2. county_long
-3. county
-4. arc_county      
-5. distress_fy25
-6. distress_fy24
-7. distress_fy23
-8. distress_fy22   
-9. distress_fy21
-10. distress_fy20
-11. distress_fy19
-12. distress_fy18   
-13. distress_fy17
-14. cbsa_code
-15. cbsa_title
-16. metro_micro     
-17. central_outlying
-18. dev_dist_name
-19, dev_dist_acronym
-20. ecd_rural       
-21. rucc_2013       
-22. rucc_2013_desc
-23. rucc_2023
-24. rucc_2023_desc  
-25. pct_rural_2010
+1. geoid - (character) Five digit county FIPS code. 
+2. county_long - County name including "County" after name
+3. county - County name without "County after name
+4. arc_county - Indicates if county is covered by Appalachian Regional Commission (ARC)      
+5. distress_fy25 - ARC County status (Distressed, At-Risk , Transitional, Competitive, Attainment) for FY25
+6. distress_fy24 - ARC County status for FY24
+7. distress_fy23 - ARC County status for FY23
+8. distress_fy22 - ARC County status for FY22   
+9. distress_fy21 - ARC County status for FY21
+10. distress_fy20 - ARC County status for FY20
+11. distress_fy19 - ARC County status for FY19
+12. distress_fy18 - ARC County status for FY18   
+13. distress_fy17 - ARC County status for FY217
+14. cbsa_code - code identifier for county in Core-Based Statistical Area (CBSA)
+15. cbsa_title - name of the CBSA
+16. metro_micro - indicator of whether the CBSA is a Micropoitan or Metropolitan statistical area    
+17. central_outlying - indicator of whether the county is central or outlying in the statistical area
+18. dev_dist_name - Name of Tennnessee Development District
+19, dev_dist_acronym - Acronym for Tennnessee Development District
+20. ecd_rural - Tennessee Department of Economic and Community Development county rurality designation      
+21. rucc_2013 - US Department of Agriculture (USDA) Rural-Urban Continuum Codes (RUCC) for 2013        
+22. rucc_2013_desc - metadata for 2013 USDA RUCC
+23. rucc_2023 - USDA RUCC for 2023
+24. rucc_2023_desc - metadata for 2023 USDA RUCC  
+25. pct_rural_2010 - 
 26. urban_rural_2010
 27. pct_rural_2020
 28. urban_rural_2020
