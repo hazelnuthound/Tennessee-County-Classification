@@ -42,13 +42,12 @@ The resulting file includes the following thirty-one variables:
 27. pct_rural_2020 - Percentage of county popuation that is rural, 2020 Census
 28. urban_rural_2020 - Rural classification based on 2020 rural population (see detail below)
 29. county_number - Tennessee county number assigned alphabetically
-30. grand_division  
-21. tdot_region
+30. grand_division  - County assignment to Tennessee Grand Division 
+31. tdot_region - County assignment to Tennessee Department of Transportation (TDOT) Region
 
 ### Appalachian Regional Commission (ARC) distressed county status for FY2017 through FY2025
-The Appalachian Region Commission (ARC) description of county economic levels
+The ARC provides data on the classification og counties being economincalily destressed. A description of the moethodology the ARC uses to classify counties can be found at: 
 https://www.arc.gov/distressed-designation-and-county-economic-status-classification-system/
-
 
 ### Membership in a Core Based Statistical Area
 
