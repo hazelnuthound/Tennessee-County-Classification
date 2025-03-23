@@ -34,14 +34,14 @@ The resulting file includes the following thirty-one variables:
 19, dev_dist_acronym - Acronym for Tennnessee Development District
 20. ecd_rural - Tennessee Department of Economic and Community Development county rurality designation      
 21. rucc_2013 - US Department of Agriculture (USDA) Rural-Urban Continuum Codes (RUCC) for 2013        
-22. rucc_2013_desc - metadata for 2013 USDA RUCC
+22. rucc_2013_desc - Metadata for 2013 USDA RUCC
 23. rucc_2023 - USDA RUCC for 2023
-24. rucc_2023_desc - metadata for 2023 USDA RUCC  
-25. pct_rural_2010 - 
-26. urban_rural_2010
-27. pct_rural_2020
-28. urban_rural_2020
-29. county_number
+24. rucc_2023_desc - Metadata for 2023 USDA RUCC  
+25. pct_rural_2010 - Percentage of county popuation that is rural, 2010 Census
+26. urban_rural_2010 - Rural classification based on 2010 rural population (see detail below)
+27. pct_rural_2020 - Percentage of county popuation that is rural, 2020 Census
+28. urban_rural_2020 - Rural classification based on 2020 rural population (see detail below)
+29. county_number - Tennessee county number assigned alphabetically
 30. grand_division  
 21. tdot_region
 
