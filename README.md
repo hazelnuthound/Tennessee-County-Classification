@@ -46,9 +46,10 @@ The resulting file includes the following thirty-one variables:
 30. grand_division  - County assignment to Tennessee Grand Division 
 31. tdot_region - County assignment to Tennessee Department of Transportation (TDOT) Region
 
-### Appalachian Regional Commission (ARC) distressed county status for FY2017 through FY2025
-The ARC provides data on the classification og counties being economincalily distressed. A description of the moethodology the ARC uses to classify counties can be found at: 
-https://www.arc.gov/distressed-designation-and-county-economic-status-classification-system/
+### Appalachian Regional Commission (ARC) Distressed County Status 
+
+You have likely heard the term  “distressed county.”  The ARC produces the classification system that is source of distressed county classification .
+[Background Information including Methodology for ARC’s Classification System] (https://www.arc.gov/distressed-designation-and-county-economic-status-classification-system/)
 
 ### Membership in a Core Based Statistical Area
 
