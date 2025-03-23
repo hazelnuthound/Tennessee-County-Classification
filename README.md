@@ -3,7 +3,7 @@
 When analyzing county-level data, it is often valuable to assess factors such as the degree of rurality, level of economic development, or the intrastate region of a county. This repository contains an R script that creates a file that seamlessly integrates with Census data using the GEOID field provided in Census API responses. The script includes classifications of Tennessee counties based on the following criteria:
 
 1. Appalachian Regional Commission (ARC) distressed county status for FY2017 through FY2025;
-2. Membership in a Core-Based Statistical Area;
+2. Membership in a Core-Based Statistical Area like a Metropolitan Statistical Area (MSA);
 3. Tennessee Development District;
 4. Rurality as determined by the Tennessee Department of Economic and Community Development;
 5. USDA Rural-Urban Continuum Codes - 2013 and 2023 vintages;
@@ -12,6 +12,7 @@ When analyzing county-level data, it is often valuable to assess factors such as
 8. Tennessee Department of Transportation (TDOT) District; and 
 9. County number.
 
+## Variables
 The resulting file includes the following thirty-one variables:
 1. geoid - (character) Five digit county FIPS code. 
 2. county_long - County name including "County" after name
@@ -31,7 +32,7 @@ The resulting file includes the following thirty-one variables:
 16. metro_micro - indicator of whether the CBSA is a Micropoitan or Metropolitan statistical area    
 17. central_outlying - indicator of whether the county is central or outlying in the statistical area
 18. dev_dist_name - Name of Tennnessee Development District
-19, dev_dist_acronym - Acronym for Tennnessee Development District
+19. dev_dist_acronym - Acronym for Tennnessee Development District
 20. ecd_rural - Tennessee Department of Economic and Community Development county rurality designation      
 21. rucc_2013 - US Department of Agriculture (USDA) Rural-Urban Continuum Codes (RUCC) for 2013        
 22. rucc_2013_desc - Metadata for 2013 USDA RUCC
@@ -46,7 +47,7 @@ The resulting file includes the following thirty-one variables:
 31. tdot_region - County assignment to Tennessee Department of Transportation (TDOT) Region
 
 ### Appalachian Regional Commission (ARC) distressed county status for FY2017 through FY2025
-The ARC provides data on the classification og counties being economincalily destressed. A description of the moethodology the ARC uses to classify counties can be found at: 
+The ARC provides data on the classification og counties being economincalily distressed. A description of the moethodology the ARC uses to classify counties can be found at: 
 https://www.arc.gov/distressed-designation-and-county-economic-status-classification-system/
 
 ### Membership in a Core Based Statistical Area
