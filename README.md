@@ -48,8 +48,8 @@ The resulting file includes the following thirty-one variables:
 
 ### Appalachian Regional Commission (ARC) Distressed County Status 
 
-You have likely heard the term  “distressed county.”  The ARC produces the classification system that is source of distressed county classification .
-[Background Information including Methodology for ARC’s Classification System] (https://www.arc.gov/distressed-designation-and-county-economic-status-classification-system/)
+You have likely heard the term  “distressed county.”  The ARC produces the classification system that is source of distressed county classification.
+[Background Information including Methodology for ARC’s Classification System](https://www.arc.gov/distressed-designation-and-county-economic-status-classification-system/).
 
 ### Membership in a Core Based Statistical Area
 
